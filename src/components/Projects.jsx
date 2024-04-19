@@ -9,15 +9,15 @@ export default function Projects() {
 
     return (
         <div id="projects" className="bg-gradient-to-r from-black to-indigo-950 pt-36 p-5">
-            <div className="text-2xl lg:text-5xl mb-10 text-white flex justify-center items-center pb-20">
+            <div className="text-2xl lg:text-5xl mb-10 text-white flex justify-center items-center lg:pb-20">
                 My Projects
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 overflow-hidden bg-gradient-to-r from-black to-indigo-950">
+            <div className="grid grid-cols-1 gap-3 pl-20 sm:grid-cols-2 lg:grid-cols-2 overflow-hidden bg-gradient-to-r from-black to-indigo-950">
                 <motion.div
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ type: "easeInOut", duration: 0.2 }}
-                    className="pb-10 w-full"
+                    className="pb-3 w-full"
                     >
                     <div
 
@@ -29,9 +29,9 @@ export default function Projects() {
                         <div className={`h-full rounded-lg bg-black bg-opacity-70 ${show == "Paytm WebApp" ? 'block' : 'hidden'}`}>
                             <motion.div
                                 className="p-4 md:p-8"
-                                initial={{ opacity: 0, y: 100 }}
-                                animate={{ opacity: show == "Paytm WebApp" ? 1 : 0, y: show == "Paytm WebApp" ? 0 : 100 }}
-                                transition={{ duration: 0.4, type: "easeInOut" }}
+                                initial={{ opacity: 0, y: 50 }}
+                                animate={{ opacity: show == "Paytm WebApp" ? 1 : 0, y: show == "Paytm WebApp" ? 0 : 50 }}
+                                transition={{ duration: 0.4, type: "easeOutIn" }}
                             >
                                 <div className="flex justify-between pb-5 md:pb-10">
                                     <div className="text-white text-lg md:text-2xl underline underline-offset-8">
@@ -72,10 +72,9 @@ export default function Projects() {
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ type: "easeInOut", delay: 0.3, duration: 0.2 }}
-                    className="pb-10 w-full"
+                    className="pb-3 w-full"
                     >
                     <div
-
                         className="lg:w-11/12 h-80 bg-cover bg-left-top rounded-lg relative"
                         style={{ backgroundImage: "url('https://res.cloudinary.com/dfyusbisg/image/upload/v1713436844/dukanScr_mmimwt.png')" }}
                         onMouseEnter={() => { handleMouseEnter("Dukan UI") }}
@@ -128,7 +127,7 @@ export default function Projects() {
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ type: "easeInOut",delay:0.4, duration: 0.2 }}
-                    className="pb-10 w-full">
+                    className="pb-3 w-full">
                     <div
 
                         className="lg:w-11/12 h-80 bg-cover bg-left-top rounded-lg relative"

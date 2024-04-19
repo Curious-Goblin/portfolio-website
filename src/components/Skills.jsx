@@ -10,7 +10,7 @@ export default function Skills() {
                 viewport={{ once: false }}
                 className="text-white text-center px-4 lg:px-10">
                 <div className="text-2xl lg:text-5xl mb-10">My Skills</div>
-                <div className="flex flex-wrap justify-center gap-2 md:gap-4 md:pl-96 md:pr-96 md:mr-40 md:ml-40">
+                <div className="flex flex-wrap justify-center gap-2">
                     {skills.map((skill, index) => (
                         <motion.div
                             key={index}
