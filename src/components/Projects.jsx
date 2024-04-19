@@ -12,7 +12,7 @@ export default function Projects() {
             <div className="text-2xl lg:text-5xl mb-10 text-white flex justify-center items-center lg:pb-20">
                 My Projects
             </div>
-            <div className="grid grid-cols-1 gap-3 pl-20 sm:grid-cols-2 lg:grid-cols-2 overflow-hidden bg-gradient-to-r from-black to-indigo-950">
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-2 overflow-hidden bg-gradient-to-r from-black to-indigo-950">
                 <motion.div
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
