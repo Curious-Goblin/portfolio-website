@@ -5,13 +5,13 @@ export default function About() {
     return (
         <div id="about" className="bg-gradient-to-r from-black to-indigo-950 flex justify-center items-center pt-10 lg:pt-20">
             <motion.div
-                className="text-white text-center xl:pl-96 xl:pr-96"
+                className="text-white text-center lg:pl-28 lg:pr-28 2xl:pl-64 2xl:pr-64 p-10"
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ type: "easeInOut", duration: 0.4 }}
                 viewport={{ once: false }}
             >
-                <div className="rounded-lg  lg:pl-40 lg:pr-40 p-10">
+                <div className="2xl:pr-10 2xl:pl-10">
                     <div className="text-2xl lg:text-5xl pb-10">
                         About Me
                     </div>

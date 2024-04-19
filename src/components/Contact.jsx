@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export default function Contact() {
     return (
         <div className="bg-gradient-to-r from-black to-indigo-950">
-            <div id="contact" className="sticky bg-opacity-100 z-20 bottom-0 bg-stone-900 h-48">
+            <div id="contact" className="sticky bg-opacity-100 z-20 bottom-0 bg-stone-900 h-52 md:h-44">
                 <div className="flex text-white justify-center pt-2 gap-1">
                     <a href="mailto:poddarsourabh9939@gmail.com"><div className="underline hover:text-gray-400">podddarsourabh9939@gmail.com</div></a>
                 </div>
@@ -21,7 +21,7 @@ export default function Contact() {
                         <a href="https://twitter.com/Sourabh__Poddar"><img src="https://res.cloudinary.com/dfyusbisg/image/upload/v1713457472/twitter-154-svgrepo-com_f9u9wi.svg"></img></a>
                     </div>
                 </div>
-                <div className=" text-center flex justify-center items-center pt-4 text-gray-400">
+                <div className=" text-center flex justify-center items-center pt-4 p-2 text-gray-400">
                     © 2024 Sourabh. Made with ❤️ and protected by copyright.
                 </div>
                 <div className=" text-center flex justify-center items-center text-gray-400">
