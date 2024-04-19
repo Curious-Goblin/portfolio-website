@@ -15,7 +15,7 @@ export default function Contact() {
                         <a href="https://github.com/Curious-Goblin"><img src="https://res.cloudinary.com/dfyusbisg/image/upload/v1713459985/github-svgrepo-com_dsuew6.svg"></img></a>
                     </div>
                     <div className="w-8 h-8 p-1 rounded-lg bg-gray-300 hover:bg-gray-600">
-                        <a href=""><img src="https://res.cloudinary.com/dfyusbisg/image/upload/v1713450777/instagram-svgrepo-com_eivltx.svg"></img></a>
+                        <a href="https://www.instagram.com/sourabhpoddar83/?hl=en"><img src="https://res.cloudinary.com/dfyusbisg/image/upload/v1713450777/instagram-svgrepo-com_eivltx.svg"></img></a>
                     </div>
                     <div className="w-8 h-8 p-1 rounded-lg bg-gray-300 hover:bg-gray-600">
                         <a href="https://twitter.com/Sourabh__Poddar"><img src="https://res.cloudinary.com/dfyusbisg/image/upload/v1713457472/twitter-154-svgrepo-com_f9u9wi.svg"></img></a>
