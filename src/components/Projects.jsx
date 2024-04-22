@@ -123,7 +123,7 @@ export default function Projects() {
                     </div>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ type: "easeInOut",delay:0.4, duration: 0.2 }}
@@ -175,7 +175,7 @@ export default function Projects() {
                             </motion.div>
                         </div>
                     </div>
-                </motion.div>
+                </motion.div> */}
 
             </div>
         </div>
